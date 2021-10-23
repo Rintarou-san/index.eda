@@ -80,3 +80,188 @@ body {
     right: -3px;
     bottom: -3px;
 }
+
+.slide {
+    border-radius: 20px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-content {
+    max-width: 400px;
+    position: relative;
+}
+
+.slide-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 51px;
+    margin: 0 0 15px;
+}
+
+.slide-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.slide-text-light {
+    background: grey;
+    color: white;
+}
+
+.button-primary {
+    background: #F47322;
+    color: #fff;
+}
+
+.button {
+    border-radius: 25px;
+    padding: 12px 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.button-primary:link {
+    color: #fff;
+}
+
+.button-primary:visited {
+    color: #fff;
+}
+
+.slide-summer {
+    background: url(../img/summer.png) center/100% auto no-repeat;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
+}
+
+.promo {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    padding: 32px;
+    min-width: 570px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.card-text-light {
+    color: #fff;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin: 4px 0 21px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 200px;
+}
+
+.card-price {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.card-delivery {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+.card-header, .card-footer {
+    z-index: 1;
+}
+
+.button-default {
+    background: #fff;
+    color: #5F5F61;
+}
+.button-default:link {
+    color: #5F5F61;
+}
+.button-default:visited {
+    color: #5F5F61;
+}
+
+.sweet-basket {
+    background: url(../img/sweetBasket.png) center/100% auto no-repeat;
+}
+.min-efforts {
+    background: url(../img/minEfforts.png) center/100% auto no-repeat;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 70px 125px;
+    background: #F6F6F6;
+}
+.social-networks {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anchor {
+    margin-left: 30px;
+    font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+    text-decoration: underline;
+}
